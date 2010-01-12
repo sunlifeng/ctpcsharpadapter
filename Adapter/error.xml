@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSPY v2004 rel. 4 U (http://www.xmlspy.com) by wangzhaodong (ORiON) -->
+<!DOCTYPE errors SYSTEM "error.dtd">
+<errors>
+	<error id="NONE" value="0" prompt="综合交易平台：正确"/>
+	<error id="INVALID_DATA_SYNC_STATUS" value="1" prompt="综合交易平台：不在已同步状态"/>
+	<error id="INCONSISTENT_INFORMATION" value="2" prompt="综合交易平台：会话信息不一致"/>
+	<error id="INVALID_LOGIN" value="3" prompt="综合交易平台：不合法的登录"/>
+	<error id="USER_NOT_ACTIVE" value="4" prompt="综合交易平台：用户不活跃"/>
+	<error id="DUPLICATE_LOGIN" value="5" prompt="综合交易平台：重复的登录"/>
+	<error id="NOT_LOGIN_YET" value="6" prompt="综合交易平台：还没有登录"/>
+	<error id="NOT_INITED" value="7" prompt="综合交易平台：还没有初始化"/>
+	<error id="FRONT_NOT_ACTIVE" value="8" prompt="综合交易平台：前置不活跃"/>
+	<error id="NO_PRIVILEGE" value="9" prompt="综合交易平台：无此权限"/>
+	<error id="CHANGE_OTHER_PASSWORD" value="10" prompt="综合交易平台：修改别人的口令"/>
+	<error id="USER_NOT_FOUND" value="11" prompt="综合交易平台：找不到该用户"/>
+	<error id="BROKER_NOT_FOUND" value="12" prompt="综合交易平台：找不到该经纪公司"/>
+	<error id="INVESTOR_NOT_FOUND" value="13" prompt="综合交易平台：找不到投资者"/>
+	<error id="OLD_PASSWORD_MISMATCH" value="14" prompt="综合交易平台：原口令不匹配"/>
+	<error id="BAD_FIELD" value="15" prompt="综合交易平台：报单字段有误"/>
+	<error id="INSTRUMENT_NOT_FOUND" value="16" prompt="综合交易平台：找不到合约"/>
+	<error id="INSTRUMENT_NOT_TRADING" value="17" prompt="综合交易平台：合约不能交易"/>
+	<error id="NOT_EXCHANGE_PARTICIPANT" value="18" prompt="综合交易平台：经纪公司不是交易所的会员"/>
+	<error id="INVESTOR_NOT_ACTIVE" value="19" prompt="综合交易平台：投资者不活跃"/>
+	<error id="NOT_EXCHANGE_CLIENT" value="20" prompt="综合交易平台：投资者未在交易所开户"/>
+	<error id="NO_VALID_TRADER_AVAILABLE" value="21" prompt="综合交易平台：该交易席位未连接到交易所"/>
+	<error id="DUPLICATE_ORDER_REF" value="22" prompt="综合交易平台：报单错误：不允许重复报单"/>
+	<error id="BAD_ORDER_ACTION_FIELD" value="23" prompt="综合交易平台：错误的报单操作字段"/>
+	<error id="DUPLICATE_ORDER_ACTION_REF" value="24" prompt="综合交易平台：撤单已报送，不允许重复撤单"/>
+	<error id="ORDER_NOT_FOUND" value="25" prompt="综合交易平台：撤单找不到相应报单"/>
+	<error id="INSUITABLE_ORDER_STATUS" value="26" prompt="综合交易平台：报单已全成交或已撤销，不能再撤"/>
+	<error id="UNSUPPORTED_FUNCTION" value="27" prompt="综合交易平台：不支持的功能"/>
+	<error id="NO_TRADING_RIGHT" value="28" prompt="综合交易平台：没有报单交易权限"/>
+	<error id="CLOSE_ONLY" value="29" prompt="综合交易平台：只能平仓"/>
+	<error id="OVER_CLOSE_POSITION" value="30" prompt="综合交易平台：平仓量超过持仓量"/>
+	<error id="INSUFFICIENT_MONEY" value="31" prompt="综合交易平台：资金不足"/>
+	<error id="DUPLICATE_PK" value="32" prompt="综合交易平台：主键重复"/>
+	<error id="CANNOT_FIND_PK" value="33" prompt="综合交易平台：找不到主键"/>
+	<error id="CAN_NOT_INACTIVE_BROKER" value="34" prompt="综合交易平台：设置经纪公司不活跃状态失败"/>
+	<error id="BROKER_SYNCHRONIZING" value="35" prompt="综合交易平台：经纪公司正在同步"/>
+	<error id="BROKER_SYNCHRONIZED" value="36" prompt="综合交易平台：经纪公司已同步"/>
+	<error id="SHORT_SELL" value="37" prompt="综合交易平台：现货交易不能卖空"/>
+	<error id="INVALID_SETTLEMENT_REF" value="38" prompt="综合交易平台：不合法的结算引用"/>
+	<error id="CFFEX_NETWORK_ERROR" value="39" prompt="综合交易平台：中金所网络连接失败"/>
+	<error id="CFFEX_OVER_REQUEST" value="40" prompt="综合交易平台：中金所未处理请求超过许可数"/>
+	<error id="CFFEX_OVER_REQUEST_PER_SECOND" value="41" prompt="综合交易平台：中金所每秒发送请求数超过许可数"/>
+	<error id="SETTLEMENT_INFO_NOT_CONFIRMED" value="42" prompt="综合交易平台：结算结果未确认"/>
+	<error id="DEPOSIT_NOT_FOUND" value="43" prompt="综合交易平台：没有对应的入金记录"/>
+	<error id="EXCHANG_TRADING" value="44" prompt="综合交易平台：交易所已经进入连续交易状态"/>
+	<error id="PARKEDORDER_NOT_FOUND" value="45" prompt="综合交易平台：找不到预埋（撤单）单"/>
+	<error id="PARKEDORDER_HASSENDED" value="46" prompt="综合交易平台：预埋（撤单）单已经发送"/>
+	<error id="PARKEDORDER_HASDELETE" value="47" prompt="综合交易平台：预埋（撤单）单已经删除"/>
+	<error id="INVALID_INVESTORIDORPASSWORD" value="48" prompt="综合交易平台：无效的投资者或者密码"/>
+	<error id="INVALID_LOGIN_IPADDRESS" value="49" prompt="综合交易平台：不合法的登录IP地址"/>
+	<error id="OVER_CLOSETODAY_POSITION" value="50" prompt="综合交易平台：平今仓位不足"/>
+	<error id="OVER_CLOSEYESTERDAY_POSITION" value="51" prompt="综合交易平台：平昨仓位不足"/>
+</errors>
